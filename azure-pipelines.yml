@@ -6,13 +6,6 @@
 trigger:
 - master
 
-
-jobs:
-- job: Job_1
-  displayName: Agent job 1
-  pool:
-    name: az400m05l05a-pooljobs:
-
 pool:
   vmImage: ubuntu-latest
 
